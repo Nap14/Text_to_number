@@ -84,9 +84,8 @@ def text_to_number(text: str) -> int:
 
 
 def main():
-    i = 0
-    while i < 10:
-        i += 1
+
+    while True:
         num = input("Type your number: ")
         if num == "stop":
             break
