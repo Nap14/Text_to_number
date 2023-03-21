@@ -1,6 +1,6 @@
 import pytest
 
-from .main import UnrecognizedError, text_to_number
+from .text_to_number import UnrecognizedError, text_to_number
 
 
 @pytest.mark.parametrize(
